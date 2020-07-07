@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     auto r1=Range<int>(1, 9, 2);
-    for(auto x : r1)
+    for(auto x:r1)
         cout << x <<" ";
     cout << "\n";
     for(auto x : r1)
