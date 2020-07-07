@@ -8,7 +8,7 @@
 using namespace std;
 
 int main(){
-    using DMatrix=Matrix<double, 3, 4>;
+    using DMatrix=Matrix<double,3,4>;
     DMatrix m({{1,  2,  3,  4},
                { 5,  6,  7,  8},
                { 9, 10, 11, 12}});
